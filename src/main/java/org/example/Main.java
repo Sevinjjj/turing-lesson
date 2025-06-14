@@ -47,5 +47,6 @@ public class Main{
         System.out.println(a+=5);
         System.out.println(b-+5);
         System.out.println(a=+b+article);
+
     }
 }

@@ -26,7 +26,7 @@ public class Main{
         System.out.println(++number1);
         //System.out.println((number1++);
         System.out.println(number1>number2 || number2>number1 );
-        //System.out.println(number3=number6 && number2>number1);
+        System.out.println(number3==number6 && number2>number1);
         System.out.println(false || false);
         System.out.println(false && false);
         System.out.println(true && false);
@@ -54,8 +54,6 @@ public class Main{
         double result = (e++)+(--f)-(e++)+(e+=3)+(++h);
         System.out.printf("%2.0f\n", result);
 
-
-        System.out.println();
        // import java.util.Scanner;
        // Scanner scanner= new scanner{System.in);
        // int b= scanner.nextInt();
@@ -67,4 +65,7 @@ public class Main{
         System.out.println(u<o ? "fexri" : u>o ? "tural" : "murad");
 
     }
+
+
+
 }
